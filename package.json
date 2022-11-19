@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-d2-software",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint and Prettier configuration for projects. Based and extended from eslint-config-codely.",
   "main": ".eslintrc.js",
   "scripts": {},
