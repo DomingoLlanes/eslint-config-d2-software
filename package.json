@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-d2-software",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier configuration for projects. Based and extended from eslint-config-codely.",
+  "main": ".eslintrc.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DomingoLlanes/eslint-config-d2-software.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "eslint",
+    "config",
+    "d2-software"
+  ],
+  "author": {
+    "name": "Domingo Llanes",
+    "email": "info@domingollanes.me",
+    "url": "https://blog.domingollanes.me"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/DomingoLlanes/eslint-config-d2-software/issues"
+  },
+  "homepage": "https://github.com/DomingoLlanes/eslint-config-d2-software#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-codely": "^2.1.0",
+    "eslint-plugin-jest": "^27.1.5",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-sonarjs": "^0.16.0",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "eslint-plugin-write-good-comments": "^0.1.4"
+  }
+}
