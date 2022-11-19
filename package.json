@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-d2-software",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint and Prettier configuration for projects. Based and extended from eslint-config-codely.",
   "main": ".eslintrc.js",
   "scripts": {},
@@ -25,7 +25,7 @@
     "url": "https://github.com/DomingoLlanes/eslint-config-d2-software/issues"
   },
   "homepage": "https://github.com/DomingoLlanes/eslint-config-d2-software#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^8.28.0",
     "eslint-config-codely": "^2.1.0",
     "eslint-plugin-jest": "^27.1.5",
