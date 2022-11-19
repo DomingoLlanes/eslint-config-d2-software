@@ -1,0 +1,1 @@
+# eslint-config-d2-software
