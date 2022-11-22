@@ -21,7 +21,7 @@ module.exports = {
   overrides: [
     {
       plugins: ["jest", "jest-formatting"],
-      files: ["tests/*.spec.js", "tests/*.test.js", "tests/*.mock.js"],
+      files: ["tests/*.spec.(j|t)s", "tests/*.test.(j|t)s", "tests/*.mock.(j|t)s"],
       extends: [
         "plugin:jest/recommended",
         "plugin:jest/style",
