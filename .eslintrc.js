@@ -2,7 +2,6 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    "jest/globals": true,
   },
   parserOptions: {
     ecmaVersion: "latest",
@@ -20,6 +19,9 @@ module.exports = {
   ignorePatterns: ["coverage/*"],
   overrides: [
     {
+      env: {
+        "jest/globals": true,
+      },
       plugins: ["jest", "jest-formatting"],
       files: ["tests/*.spec.(j|t)s", "tests/*.test.(j|t)s", "tests/*.mock.(j|t)s"],
       extends: [

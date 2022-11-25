@@ -9,5 +9,17 @@ module.exports = {
         "plugin:import/typescript",
       ],
     },
+    {
+      env: {
+        "jest/globals": true,
+      },
+      plugins: ["jest", "jest-formatting"],
+      files: ["tests/*.spec.ts", "tests/*.test.ts", "tests/*.mock.ts"],
+      extends: [
+        "plugin:jest/recommended",
+        "plugin:jest/style",
+        "plugin:jest-formatting/recommended",
+      ],
+    },
   ],
 };
